@@ -10,7 +10,6 @@ members = ["Hazel", "Mary", "Reyna"]
 leader = random.choice(members)
 print(f"The leader is {leader}")
 
-
 class Dice:
     def roll(self):
         first = random.randint(1, 6)
